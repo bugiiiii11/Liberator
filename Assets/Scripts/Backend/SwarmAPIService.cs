@@ -22,7 +22,6 @@ namespace Liberator.Backend
         private string _authToken;
 
         // Events for UI updates
-        public event Action<PlayerData> OnPlayerDataLoaded;
         public event Action<EnergyData> OnEnergyLoaded;
         public event Action<CombatResult> OnCombatResultSubmitted;
         public event Action<string> OnError;

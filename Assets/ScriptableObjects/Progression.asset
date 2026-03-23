@@ -1,0 +1,575 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edf2c3b46ed96e54e96121675ba2710a, type: 3}
+  m_Name: Progression
+  m_EditorClassIdentifier: 
+  _charaters:
+  - _character: 0
+    _stats:
+    - _stat: 1
+      _valuesByLevel:
+      - 100
+      - 120
+      - 150
+    - _stat: 2
+      _valuesByLevel:
+      - 15
+      - 18
+      - 22
+    - _stat: 3
+      _valuesByLevel:
+      - 5
+      - 7
+      - 9
+    - _stat: 4
+      _valuesByLevel:
+      - 1
+      - 1
+      - 1
+    - _stat: 5
+      _valuesByLevel:
+      - 1
+      - 1
+      - 1
+    - _stat: 6
+      _valuesByLevel:
+      - 10
+      - 12
+      - 15
+    - _stat: 7
+      _valuesByLevel:
+      - 150
+      - 160
+      - 175
+    - _stat: 8
+      _valuesByLevel:
+      - 5
+      - 7
+      - 10
+    - _stat: 9
+      _valuesByLevel:
+      - 10
+      - 12
+      - 14
+    - _stat: 10
+      _valuesByLevel:
+      - 3
+      - 4
+      - 5
+    - _stat: 0
+      _valuesByLevel:
+      - 100
+      - 300
+  - _character: 1
+    _stats:
+    - _stat: 1
+      _valuesByLevel:
+      - 40
+      - 55
+      - 70
+    - _stat: 2
+      _valuesByLevel:
+      - 8
+      - 11
+      - 14
+    - _stat: 3
+      _valuesByLevel:
+      - 2
+      - 3
+      - 5
+    - _stat: 4
+      _valuesByLevel:
+      - 1
+      - 1
+      - 1
+    - _stat: 5
+      _valuesByLevel:
+      - 1
+      - 1
+      - 1
+    - _stat: 6
+      _valuesByLevel:
+      - 5
+      - 7
+      - 10
+    - _stat: 7
+      _valuesByLevel:
+      - 120
+      - 130
+      - 140
+    - _stat: 8
+      _valuesByLevel:
+      - 3
+      - 4
+      - 5
+    - _stat: 9
+      _valuesByLevel:
+      - 5
+      - 6
+      - 7
+    - _stat: 10
+      _valuesByLevel:
+      - 2
+      - 3
+      - 3
+    - _stat: 0
+      _valuesByLevel:
+      - 50
+      - 150
+  - _character: 2
+    _stats:
+    - _stat: 1
+      _valuesByLevel:
+      - 30
+      - 40
+      - 50
+    - _stat: 2
+      _valuesByLevel:
+      - 12
+      - 15
+      - 19
+    - _stat: 3
+      _valuesByLevel:
+      - 1
+      - 2
+      - 3
+    - _stat: 4
+      _valuesByLevel:
+      - 1
+      - 1
+      - 1
+    - _stat: 5
+      _valuesByLevel:
+      - 3
+      - 3
+      - 3
+    - _stat: 6
+      _valuesByLevel:
+      - 15
+      - 18
+      - 22
+    - _stat: 7
+      _valuesByLevel:
+      - 140
+      - 155
+      - 170
+    - _stat: 8
+      _valuesByLevel:
+      - 8
+      - 10
+      - 12
+    - _stat: 9
+      _valuesByLevel:
+      - 8
+      - 9
+      - 11
+    - _stat: 10
+      _valuesByLevel:
+      - 2
+      - 3
+      - 3
+    - _stat: 0
+      _valuesByLevel:
+      - 50
+      - 150
+  - _character: 3
+    _stats:
+    - _stat: 1
+      _valuesByLevel:
+      - 35
+      - 45
+      - 60
+    - _stat: 2
+      _valuesByLevel:
+      - 6
+      - 8
+      - 10
+    - _stat: 3
+      _valuesByLevel:
+      - 3
+      - 4
+      - 6
+    - _stat: 4
+      _valuesByLevel:
+      - 1
+      - 1
+      - 1
+    - _stat: 5
+      _valuesByLevel:
+      - 2
+      - 2
+      - 2
+    - _stat: 6
+      _valuesByLevel:
+      - 5
+      - 7
+      - 8
+    - _stat: 7
+      _valuesByLevel:
+      - 110
+      - 120
+      - 130
+    - _stat: 8
+      _valuesByLevel:
+      - 5
+      - 6
+      - 8
+    - _stat: 9
+      _valuesByLevel:
+      - 6
+      - 7
+      - 8
+    - _stat: 10
+      _valuesByLevel:
+      - 4
+      - 5
+      - 6
+    - _stat: 0
+      _valuesByLevel:
+      - 50
+      - 150
+  - _character: 4
+    _stats:
+    - _stat: 1
+      _valuesByLevel:
+      - 60
+      - 80
+      - 100
+    - _stat: 2
+      _valuesByLevel:
+      - 10
+      - 13
+      - 16
+    - _stat: 3
+      _valuesByLevel:
+      - 8
+      - 11
+      - 14
+    - _stat: 4
+      _valuesByLevel:
+      - 1
+      - 1
+      - 1
+    - _stat: 5
+      _valuesByLevel:
+      - 1
+      - 1
+      - 1
+    - _stat: 6
+      _valuesByLevel:
+      - 5
+      - 6
+      - 8
+    - _stat: 7
+      _valuesByLevel:
+      - 130
+      - 140
+      - 150
+    - _stat: 8
+      _valuesByLevel:
+      - 2
+      - 3
+      - 4
+    - _stat: 9
+      _valuesByLevel:
+      - 4
+      - 5
+      - 6
+    - _stat: 10
+      _valuesByLevel:
+      - 5
+      - 6
+      - 7
+    - _stat: 0
+      _valuesByLevel:
+      - 50
+      - 150
+  - _character: 5
+    _stats:
+    - _stat: 1
+      _valuesByLevel:
+      - 35
+      - 45
+      - 55
+    - _stat: 2
+      _valuesByLevel:
+      - 14
+      - 17
+      - 21
+    - _stat: 3
+      _valuesByLevel:
+      - 2
+      - 3
+      - 4
+    - _stat: 4
+      _valuesByLevel:
+      - 1
+      - 1
+      - 1
+    - _stat: 5
+      _valuesByLevel:
+      - 2
+      - 2
+      - 2
+    - _stat: 6
+      _valuesByLevel:
+      - 20
+      - 23
+      - 27
+    - _stat: 7
+      _valuesByLevel:
+      - 160
+      - 175
+      - 190
+    - _stat: 8
+      _valuesByLevel:
+      - 10
+      - 13
+      - 16
+    - _stat: 9
+      _valuesByLevel:
+      - 9
+      - 11
+      - 13
+    - _stat: 10
+      _valuesByLevel:
+      - 2
+      - 3
+      - 3
+    - _stat: 0
+      _valuesByLevel:
+      - 50
+      - 150
+  - _character: 6
+    _stats:
+    - _stat: 1
+      _valuesByLevel:
+      - 25
+      - 33
+      - 42
+    - _stat: 2
+      _valuesByLevel:
+      - 18
+      - 23
+      - 28
+    - _stat: 3
+      _valuesByLevel:
+      - 1
+      - 2
+      - 3
+    - _stat: 4
+      _valuesByLevel:
+      - 1
+      - 1
+      - 1
+    - _stat: 5
+      _valuesByLevel:
+      - 1
+      - 1
+      - 1
+    - _stat: 6
+      _valuesByLevel:
+      - 25
+      - 30
+      - 35
+    - _stat: 7
+      _valuesByLevel:
+      - 180
+      - 200
+      - 220
+    - _stat: 8
+      _valuesByLevel:
+      - 15
+      - 18
+      - 22
+    - _stat: 9
+      _valuesByLevel:
+      - 12
+      - 14
+      - 16
+    - _stat: 10
+      _valuesByLevel:
+      - 3
+      - 4
+      - 4
+    - _stat: 0
+      _valuesByLevel:
+      - 50
+      - 150
+  - _character: 7
+    _stats:
+    - _stat: 1
+      _valuesByLevel:
+      - 50
+      - 65
+      - 80
+    - _stat: 2
+      _valuesByLevel:
+      - 16
+      - 20
+      - 25
+    - _stat: 3
+      _valuesByLevel:
+      - 4
+      - 6
+      - 8
+    - _stat: 4
+      _valuesByLevel:
+      - 1
+      - 1
+      - 1
+    - _stat: 5
+      _valuesByLevel:
+      - 1
+      - 1
+      - 1
+    - _stat: 6
+      _valuesByLevel:
+      - 15
+      - 18
+      - 22
+    - _stat: 7
+      _valuesByLevel:
+      - 170
+      - 185
+      - 200
+    - _stat: 8
+      _valuesByLevel:
+      - 5
+      - 7
+      - 9
+    - _stat: 9
+      _valuesByLevel:
+      - 7
+      - 8
+      - 10
+    - _stat: 10
+      _valuesByLevel:
+      - 3
+      - 4
+      - 5
+    - _stat: 0
+      _valuesByLevel:
+      - 50
+      - 150
+  - _character: 8
+    _stats:
+    - _stat: 1
+      _valuesByLevel:
+      - 150
+      - 200
+      - 260
+    - _stat: 2
+      _valuesByLevel:
+      - 20
+      - 26
+      - 33
+    - _stat: 3
+      _valuesByLevel:
+      - 10
+      - 13
+      - 17
+    - _stat: 4
+      _valuesByLevel:
+      - 1
+      - 1
+      - 1
+    - _stat: 5
+      _valuesByLevel:
+      - 1
+      - 1
+      - 1
+    - _stat: 6
+      _valuesByLevel:
+      - 10
+      - 12
+      - 15
+    - _stat: 7
+      _valuesByLevel:
+      - 200
+      - 220
+      - 250
+    - _stat: 8
+      _valuesByLevel:
+      - 3
+      - 4
+      - 5
+    - _stat: 9
+      _valuesByLevel:
+      - 6
+      - 7
+      - 8
+    - _stat: 10
+      _valuesByLevel:
+      - 6
+      - 7
+      - 8
+    - _stat: 0
+      _valuesByLevel:
+      - 50
+      - 150
+  - _character: 9
+    _stats:
+    - _stat: 1
+      _valuesByLevel:
+      - 45
+      - 58
+      - 72
+    - _stat: 2
+      _valuesByLevel:
+      - 10
+      - 13
+      - 16
+    - _stat: 3
+      _valuesByLevel:
+      - 3
+      - 4
+      - 6
+    - _stat: 4
+      _valuesByLevel:
+      - 1
+      - 1
+      - 1
+    - _stat: 5
+      _valuesByLevel:
+      - 2
+      - 2
+      - 2
+    - _stat: 6
+      _valuesByLevel:
+      - 10
+      - 12
+      - 15
+    - _stat: 7
+      _valuesByLevel:
+      - 130
+      - 145
+      - 160
+    - _stat: 8
+      _valuesByLevel:
+      - 5
+      - 6
+      - 8
+    - _stat: 9
+      _valuesByLevel:
+      - 7
+      - 8
+      - 9
+    - _stat: 10
+      _valuesByLevel:
+      - 5
+      - 6
+      - 7
+    - _stat: 0
+      _valuesByLevel:
+      - 50
+      - 150
