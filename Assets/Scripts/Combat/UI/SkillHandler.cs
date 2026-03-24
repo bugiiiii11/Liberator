@@ -49,7 +49,7 @@ namespace Liberator.Combat.UI
 
         private void Awake()
         {
-            GameObject player = GameObject.FindGameObjectWithTag("CombatPlayer");
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
             _entityController = player.GetComponent<EntityController>();
             _infoText = FindObjectOfType<InfoText>();
             _description = GameObject.FindGameObjectWithTag("PlayerInfo").GetComponent<Description>();

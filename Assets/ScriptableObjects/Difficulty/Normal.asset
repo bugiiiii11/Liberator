@@ -12,4 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb92fcc56eabeea4595f92c2a8734b9f, type: 3}
   m_Name: Normal
   m_EditorClassIdentifier: 
-  _enemyList: []
+  _enemyList:
+  - {fileID: 7576872933976002823, guid: dabbda761a02c6f4bb708e4a47850df5, type: 3}
+  - {fileID: 2938592830806196406, guid: 54374a176bd41004884efbc36d76e24f, type: 3}
+  - {fileID: 6165151799963771425, guid: 80a5d3130771ac241a20ed3723b096f2, type: 3}
+  - {fileID: 2931669748896850242, guid: f1cbcf5e1c6dff94eaebcef38171d945, type: 3}
+  - {fileID: 3254441814039014947, guid: 659529ead8c22aa419959a64e97fa7a4, type: 3}

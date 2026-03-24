@@ -48,10 +48,10 @@ namespace Liberator.Combat.Controllers
             _entityAttributes = GetComponent<BaseAttributes>();
             _entityDeathManager = GetComponent<DeathManager>();
             _image = _actionImageHolder.GetComponent<Image>();
-            _target = GameObject.FindGameObjectWithTag("CombatPlayer").GetComponent<PlayerController>() as EntityController;
+            _target = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>() as EntityController;
             _battleLog = GameObject.FindGameObjectWithTag("BattleLog").GetComponent<BattleLog>();
             _turnModule = GameObject.FindGameObjectWithTag("Finish").GetComponent<TurnModule>();
-            _playerController = GameObject.FindGameObjectWithTag("CombatPlayer").GetComponent<PlayerController>();
+            _playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
             _myMaterial = GetComponentInChildren<Renderer>().material;
             _spawner = GameObject.FindGameObjectWithTag("Spawner").GetComponent<Spawner>();
             _debuffModule = GameObject.FindGameObjectWithTag("Debuff").GetComponent<DebuffModule>();
@@ -121,12 +121,14 @@ namespace Liberator.Combat.Controllers
         void Start()
         {
             _skillIndex = 0;
-            _actionImageHolder.GetComponent<Image>().sprite = _actionImages[0];
+            if (_actionImages != null && _actionImages.Count > 0)
+                _actionImageHolder.GetComponent<Image>().sprite = _actionImages[0];
         }
 
         public void Stunned()
         {
-            _actionImageHolder.GetComponent<Image>().sprite = _actionImages[2];
+            if (_actionImages != null && _actionImages.Count > 2)
+                _actionImageHolder.GetComponent<Image>().sprite = _actionImages[2];
             _actionType = ActionType.Stunned;
         }
 
